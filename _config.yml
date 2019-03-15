@@ -2,7 +2,7 @@
 title: Jericho's Garage
 SEOTitle: Jericho的博客 | Jericho's Garage
 header-img: img/post-bg-desk.jpg
-email: qiubaiying@gmail.com
+email: ***@163.com
 description: "云海翻涌，江潮澎湃，昆虫的小触须挠着全世界的痒。"
 keyword: "JAVA, java, Java, jericho, jericho的博客, Jericho, 分布式, spring, 微服务"
 url: "https://jerichox.github.io"          # your host, for absolute URL
@@ -11,7 +11,7 @@ github_repo: "https://github.com/jerichox/jerichox.github.io.git" # you code rep
 
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
-sidebar-about-description: "一个有趣的人"
+sidebar-about-description: "I'm so cool~"
 sidebar-avatar: /img/about-BY-gentle.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
 
 
