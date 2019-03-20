@@ -27,3 +27,6 @@ git执行 `ssh-keygen -t rsa -C"你的邮箱"` ，出现如图输出即成功，
 ###5. 测试
 在git bash中执行 `ssh -T git@github.com` ，然后输入 yes ，输出下图内容即关联成功。
 ![测试](/article-pic/21-08-15.jpg)
+
+#新增or修改内容
+用到三个git命令，分别是`git add .`, `git commit -m "描述"`, `git push -u origin master`
