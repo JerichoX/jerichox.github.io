@@ -4,7 +4,7 @@ title:      用Git和Github管理项目代码
 subtitle:   让版本控制更优雅
 date:       2019-03-20
 author:     Jericho
-header-img: img/post-bg-ios9-web.jpg
+header-img: img/article-pic/342160.jpg
 catalog: false
 tags:
     - Git
