@@ -30,3 +30,7 @@ git执行 `ssh-keygen -t rsa -C"你的邮箱"` ，出现如图输出即成功，
 
 #新增or修改内容
 用到三个git命令，分别是`git add .`, `git commit -m "描述"`, `git push -u origin master`
+
+>注：首次提交需要先输入身份信息
+    git config --global user.emali "github注册邮箱"
+    git config --global user.name "github用户名"
