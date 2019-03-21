@@ -39,5 +39,12 @@ git执行 `ssh-keygen -t rsa -C"你的邮箱"` ，出现如图输出即成功，
     git config --global user.name "github用户名"
 
 #### 2. 本地拉取github代码进行同步
+##### 通过git fetch
+ `git fetch origin master:temp` 在本地新建一个temp分支，并将远程origin仓库的master分支代码下载到本地temp分支
+ `git diff temp` 来比较本地代码与刚刚从远程下载下来的代码的区别
+ `git merge temp` 合并temp分支到本地的master分支
+ `git branch -d temp` 删除temp分支
+
+##### 通过git pull
 如果你确定本地库代码没有改动过，是线上代码库的子集，直接执行`git pull`即可。
->注：这样做是不规范的也是不安全
+>注：除非确定，否则不要用这个方式更新代码，这样做是不规范的也是不安全
