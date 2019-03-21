@@ -6,6 +6,7 @@ date:       2019-03-20
 author:     Jericho
 header-img: img/article-pic/342160.jpg
 catalog: false
+categories: Technology
 tags:
     - Git
     - Github
