@@ -1,5 +1,5 @@
 ---
-layout:     post
+layout:     graphics
 title:      Graphic测试
 subtitle:   Graphic Test
 date:       2019-03-21
