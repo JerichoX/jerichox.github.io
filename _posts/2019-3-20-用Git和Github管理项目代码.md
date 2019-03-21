@@ -32,7 +32,9 @@ git执行 `ssh-keygen -t rsa -C"你的邮箱"` ，出现如图输出即成功，
 #### 1. 从本地库提交代码到github
 ##### 通过git push
  `git add .`
+
  `git commit -m "描述"`
+
  `git push -u origin master`
 
 >注：首次提交需要先输入身份信息
@@ -44,8 +46,11 @@ git执行 `ssh-keygen -t rsa -C"你的邮箱"` ，出现如图输出即成功，
 #### 2. 本地拉取github代码进行同步
 ##### 通过git fetch
  `git fetch origin master:temp` 在本地新建一个temp分支，并将远程origin仓库的master分支代码下载到本地temp分支
+
  `git diff temp` 来比较本地代码与刚刚从远程下载下来的代码的区别
+
  `git merge temp` 合并temp分支到本地的master分支
+ 
  `git branch -d temp` 删除temp分支
 
 ##### 通过git pull
