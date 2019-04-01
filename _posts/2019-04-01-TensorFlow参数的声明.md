@@ -14,6 +14,7 @@ tags:
     v1 = tf.Variable(tf.zeros([3, 3, 3]), name="v1")
     v2 = tf.Variable(tf.ones([2, 5]), name="v2")
 
+
     v1:
     [[[0. 0. 0.]
       [0. 0. 0.]
@@ -34,6 +35,7 @@ tags:
 #### 填充单值矩阵
 	v3 = tf.Variable(tf.fill([2, 3], 9))
 
+
 	v3:
 	[[9 9 9]
 	 [9 9 9]]
@@ -41,6 +43,7 @@ tags:
 #### 常量矩阵
 	v4_1 = tf.constant([1, 2, 3, 4, 5, 6, 7])
 	v4_2 = tf.constant(-1.0, shape=[2, 3])
+
 
     v4_1:
     [1 2 3 4 5 6 7]
@@ -52,6 +55,7 @@ tags:
 #### 生成等差数列
     v5 = tf.linspace(10.0, 12.0, 30, name="linspace")  # float32 or float64
     v6 = tf.range(10, 20, 3)  # just int32
+
 
     v5:
     [10.        10.068966  10.137931  10.206897  10.275862  10.344828
@@ -69,6 +73,7 @@ tags:
 	v7_3 = tf.Variable(tf.truncated_normal([2, 3], mean=0.0, stddev=1.0, dtype=tf.float32, seed=1234, name="v7_3"))
 	v7_4 = tf.Variable(tf.random_uniform([2, 3], minval=0.0, maxval=1.0, dtype=tf.float32, seed=1234, name="v7_4"))
 	v7_5 = tf.random_shuffle([[1, 2, 3], [4, 5, 6], [6, 6, 6]], seed=134, name="v7_5")
+
 
 	v7_1:
 	[[1.696614   0.64714265 0.6134002  0.13939953]
