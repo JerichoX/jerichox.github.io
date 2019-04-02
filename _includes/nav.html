@@ -25,12 +25,18 @@
                     </li>
                     {% endif %}{% endfor %}
                 </ul>
+                <!-- 用于搜索的HTML元素 -->
+                <input type="text" id="search-input" placeholder="Search blog posts ..">
+                <ul id="results-container"></ul>
             </div>
         </div>
         <!-- /.navbar-collapse -->
     </div>
     <!-- /.container -->
 </nav>
+<!-- 脚本指向jekyll-search.js -->
+<!-- <script src="{{site.baseurl}}/simple-jekyll-search.min.js"></script> -->
+<script src="https://cdn.rawgit.com/christian-fei/Simple-Jekyll-Search/master/dest/simple-jekyll-search.min.js"></script>
 <script>
     // Drop Bootstarp low-performance Navbar
     // Use customize navbar with high-quality material design animation
@@ -81,5 +87,12 @@
         if(e.target == $toggle) return;
         if(e.target.className == 'icon-bar') return;
         __HuxNav__.close();
+    })
+
+    SimpleJekyllSearch({
+        search-input: document.getElementById('search-input'),
+        resultsContainer: document.getElementById('results-container'),
+        json: '/search.json',
+        searchResultTemplate: '<li><a href="{{ site.url }}{url}">{title}</a></li>'
     })
 </script>
