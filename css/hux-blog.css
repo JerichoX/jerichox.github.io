@@ -346,7 +346,7 @@ pre code {
   list-style: none;
   padding: 5px 0 5px 15px;
 }
-#search-inne #results-container ul li {
+#search-inne #results-container li a {
   color: white;
 }
 @media only screen and (max-width: 767px) {
