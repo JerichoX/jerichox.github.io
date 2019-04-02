@@ -314,8 +314,7 @@ pre code {
   letter-spacing: 0.5px;
 }
 #search-inne {
-  display: inline-block;
-  padding: 20px 20px;
+  padding: 15px 20px;
   float: right;
 }
 @media only screen and (max-width: 767px) {
