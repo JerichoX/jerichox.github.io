@@ -314,7 +314,7 @@ pre code {
   letter-spacing: 0.5px;
 }
 #search-inne {
-  padding: 10px 10px;
+  padding: 10px 10px 9px 10px;
   float: right;
   width: 20%;
 }
@@ -344,7 +344,8 @@ pre code {
 }
 #search-inne #results-container {
   list-style: none;
-  padding: 5px 0 5px 15px;
+  padding: 0 0 0 15px;
+  margin: 0;
 }
 #search-inne #results-container li a {
   color: white;
