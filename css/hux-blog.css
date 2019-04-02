@@ -346,6 +346,7 @@ pre code {
   list-style: none;
   padding: 0 0 0 15px;
   margin: 0;
+  position: absolute;
 }
 #huxblog_navbar #results-container li a {
   color: white;
