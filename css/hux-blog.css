@@ -314,16 +314,33 @@ pre code {
   letter-spacing: 0.5px;
 }
 #search-inne {
-  padding: 15px 20px;
+  padding: 10px 10px;
   float: right;
+  width: 20%;
 }
 #search-inne input{
   background: rgb(0,0,0,0);
-  border: 1px solid white;
+  border: 2px solid white;
+  border-radius: 20px;
+  padding: 5px 10px;
+  width: 100%;
 }
-/*#search-inne input::-webkit-input-placeholder{
-  color: white;
-}*/
+#search-inne input::-webkit-input-placeholder, textarea::-webkit-input-placeholder { 
+  /* WebKit browsers */ 
+  color: white; 
+} 
+#search-inne input:-moz-placeholder, textarea:-moz-placeholder { 
+  /* Mozilla Firefox 4 to 18 */ 
+  color: white; 
+} 
+#search-inne input::-moz-placeholder, textarea::-moz-placeholder { 
+  /* Mozilla Firefox 19+ */ 
+  color: white; 
+} 
+#search-inne input:-ms-input-placeholder, textarea:-ms-input-placeholder { 
+  /* Internet Explorer 10+ */ 
+  color: white; 
+}
 @media only screen and (max-width: 767px) {
   /**
 	 * Layout
