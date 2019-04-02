@@ -320,8 +320,10 @@ pre code {
 #search-inne input{
   background: rgb(0,0,0,0);
   border: 1px solid white;
-  color: white;
 }
+/*#search-inne input::-webkit-input-placeholder{
+  color: white;
+}*/
 @media only screen and (max-width: 767px) {
   /**
 	 * Layout
