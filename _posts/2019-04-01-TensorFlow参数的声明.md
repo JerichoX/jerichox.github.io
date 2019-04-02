@@ -3,7 +3,7 @@ layout:     post
 title:      TensorFlow参数的声明
 date:       2019-04-01
 author:     Jericho
-header-img: img/article-pic/234517.jpg
+header-img: img/article-pic/123125.jpg
 catalog: false
 categories: Technology
 tags:
