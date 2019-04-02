@@ -342,12 +342,12 @@ pre code {
   /* Internet Explorer 10+ */ 
   color: white; 
 }
-#search-inne #results-container {
+#huxblog_navbar #results-container {
   list-style: none;
   padding: 0 0 0 15px;
   margin: 0;
 }
-#search-inne #results-container li a {
+#huxblog_navbar #results-container li a {
   color: white;
 }
 @media only screen and (max-width: 767px) {
